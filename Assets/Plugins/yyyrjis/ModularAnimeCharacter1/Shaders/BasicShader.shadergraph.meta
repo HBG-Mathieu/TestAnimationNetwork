@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f64cf81db645e44438c80adc105b70e2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293353
+  packageName: Modular Anime Character
+  packageVersion: 1.0
+  assetPath: Assets/yyyrjis/ModularAnimeCharacter1/Shaders/BasicShader.shadergraph
+  uploadId: 685038
