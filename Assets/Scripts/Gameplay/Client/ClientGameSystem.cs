@@ -8,6 +8,7 @@ using Unity.Physics;
 using Unity.Physics.Extensions;
 using Unity.Transforms;
 using UnityEngine.Rendering;
+using static Unity.Template.CompetitiveActionMultiplayer.WeaponVisualFeedback;
 using Random = Unity.Mathematics.Random;
 
 namespace Unity.Template.CompetitiveActionMultiplayer
@@ -158,8 +159,8 @@ namespace Unity.Template.CompetitiveActionMultiplayer
                 .CreateCommandBuffer(state.WorldUnmanaged);
 
             // Initialize local-owned characters
-            foreach (var (character, entity) in SystemAPI
-                         .Query<FirstPersonCharacterComponent>()
+            foreach (var (character, ghostOwner, entity) in SystemAPI
+                         .Query<FirstPersonCharacterComponent, GhostOwner>()
                          .WithAll<GhostOwnerIsLocal, OwningPlayer, GhostOwner>()
                          .WithDisabled<CharacterInitialized>()
                          .WithEntityAccess())
@@ -169,6 +170,7 @@ namespace Unity.Template.CompetitiveActionMultiplayer
                 {
                     BaseFov = character.BaseFov,
                 });
+               
                 // Make local character meshes rendering be shadow-only
                 var childBufferLookup = SystemAPI.GetBufferLookup<Child>();
                 MiscUtilities.SetShadowModeInHierarchy(state.EntityManager, ecb, entity, ref childBufferLookup,

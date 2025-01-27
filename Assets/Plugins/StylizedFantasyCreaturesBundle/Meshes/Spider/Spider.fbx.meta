@@ -1,0 +1,1095 @@
+fileFormatVersion: 2
+guid: d4efaf9a3a881ed488f4f9077dac2a6b
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Spider|Combat_Stun
+      takeName: Spider|Combat_Stun
+      internalID: 3670491178861078062
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|Combat_Unarmed_Attack
+      takeName: Spider|Combat_Unarmed_Attack
+      internalID: 8158131466645177282
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.30801687
+        functionName: HitBox_Start
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.67932487
+        functionName: HitBox_Stop
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|Combat_Unarmed_Attack01
+      takeName: Spider|Combat_Unarmed_Attack01
+      internalID: -1866503746663453334
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|Combat_Unarmed_Dodge
+      takeName: Spider|Combat_Unarmed_Dodge
+      internalID: 2629817809311832290
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|Combat_Unarmed_Hit
+      takeName: Spider|Combat_Unarmed_Hit
+      internalID: -8252779233021490807
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|Death
+      takeName: Spider|Death
+      internalID: 7910794461780371681
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|Idle
+      takeName: Spider|Idle
+      internalID: -4511135312232038256
+      firstFrame: 0
+      lastFrame: 58
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|Idle01
+      takeName: Spider|Idle01
+      internalID: 1609750758801211052
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|Jump_End
+      takeName: Spider|Jump_End
+      internalID: 575879094860265523
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|Jump_Loop
+      takeName: Spider|Jump_Loop
+      internalID: -8462838228841274029
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|Jump_Start
+      takeName: Spider|Jump_Start
+      internalID: 8648813336915262960
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|root|Run_Left|BaseLayer
+      takeName: Spider|root|Run_Left|BaseLayer
+      internalID: -805827440755476822
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|root|Run_Right|BaseLayer
+      takeName: Spider|root|Run_Right|BaseLayer
+      internalID: 9103500152526242759
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|root|Swim_Backwards|BaseLayer
+      takeName: Spider|root|Swim_Backwards|BaseLayer
+      internalID: -1140942174329846127
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|root|Swim_Death|BaseLayer
+      takeName: Spider|root|Swim_Death|BaseLayer
+      internalID: 2387755886129342887
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|root|Swim_Forward|BaseLayer
+      takeName: Spider|root|Swim_Forward|BaseLayer
+      internalID: 8926317325607406560
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|root|Swim_Idle|BaseLayer
+      takeName: Spider|root|Swim_Idle|BaseLayer
+      internalID: -4477998614035960005
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|root|Swim_Left|BaseLayer
+      takeName: Spider|root|Swim_Left|BaseLayer
+      internalID: -521362118314974027
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|root|Swim_Right|BaseLayer
+      takeName: Spider|root|Swim_Right|BaseLayer
+      internalID: -5555379372725363525
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|root|T_Pose|BaseLayer
+      takeName: Spider|root|T_Pose|BaseLayer
+      internalID: -1237997342636441751
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|root|Walk_Left|BaseLayer
+      takeName: Spider|root|Walk_Left|BaseLayer
+      internalID: 7078081577856435072
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|root|Walk_Right|BaseLayer
+      takeName: Spider|root|Walk_Right|BaseLayer
+      internalID: -6759137324930609821
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|Run_Backwards
+      takeName: Spider|Run_Backwards
+      internalID: -5338262608709574633
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|Run_Forward
+      takeName: Spider|Run_Forward
+      internalID: -304626388754885488
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|Walk_Backwards
+      takeName: Spider|Walk_Backwards
+      internalID: -4311316113821472236
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spider|Walk_Forward
+      takeName: Spider|Walk_Forward
+      internalID: 3650109860553112195
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Spider(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ForestSpider
+      parentName: Spider(Clone)
+      position: {x: -2.3639332e-10, y: -3.8982492e-10, z: -3.010427e-12}
+      rotation: {x: -0.7071067, y: 0.000000030908616, z: -0.000000030908623, w: 0.7071068}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Spider
+      parentName: Spider(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: 5.302452e-33, z: 5.302451e-33, w: 0.7071068}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: pelvis
+      parentName: Spider
+      position: {x: -0.12713075, y: 5.7177305, z: 183.18936}
+      rotation: {x: -0.00007137657, y: -0.7079915, z: -0.000029861929, w: 0.70622104}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000001}
+    - name: hip
+      parentName: pelvis
+      position: {x: -37.439487, y: -5.71324, z: -0.032029793}
+      rotation: {x: -0.0010680407, y: 0.004150361, z: -0.26566327, w: 0.9640564}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: tail_01
+      parentName: hip
+      position: {x: -42.91446, y: 6.7635746, z: 0.044272497}
+      rotation: {x: 0.0045788814, y: -0.01690694, z: 0.2656339, w: 0.9639148}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: tail_02
+      parentName: tail_01
+      position: {x: -27.374111, y: -12.136284, z: -0.1462355}
+      rotation: {x: -0.000000041249226, y: 0.99990845, z: 0.000042406846, w: -0.0135333715}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000001}
+    - name: tail_02_end
+      parentName: tail_02
+      position: {x: -0, y: 29.944168, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_back_01_r
+      parentName: hip
+      position: {x: -22.192448, y: -13.237119, z: -41.517693}
+      rotation: {x: -0.27241954, y: 0.17448935, z: -0.6516707, w: -0.68605137}
+      scale: {x: 0.9999991, y: 1.0000005, z: 1.0000005}
+    - name: leg_back_02_r
+      parentName: leg_back_01_r
+      position: {x: -24.730482, y: 51.92204, z: 0.048518777}
+      rotation: {x: -0.060319044, y: 0.06402666, z: -0.72151846, w: 0.68678486}
+      scale: {x: 1.0000015, y: 0.9999997, z: 0.9999997}
+    - name: leg_back_03_r
+      parentName: leg_back_02_r
+      position: {x: -37.274372, y: -34.248928, z: -0.33119488}
+      rotation: {x: -0.86339194, y: -0.22310296, z: 0.38696417, w: -0.23460245}
+      scale: {x: 0.99999994, y: 0.99999976, z: 1}
+    - name: leg_back_03_r_end
+      parentName: leg_back_03_r
+      position: {x: -0, y: 50.621063, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_back_01_l
+      parentName: hip
+      position: {x: -22.629326, y: -13.497568, z: 41.196747}
+      rotation: {x: 0.16892909, y: 0.2730059, z: 0.68780744, w: -0.65103894}
+      scale: {x: 0.99999905, y: 1.0000002, z: 0.99999976}
+    - name: leg_back_02_l
+      parentName: leg_back_01_l
+      position: {x: 24.730478, y: -51.921883, z: -0.0486812}
+      rotation: {x: -0.06038831, y: 0.06425387, z: -0.72159207, w: 0.6866802}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: leg_back_03_l
+      parentName: leg_back_02_l
+      position: {x: 37.274437, y: 34.24885, z: 0.33114862}
+      rotation: {x: -0.10478674, y: -0.3826349, z: 0.36773807, w: 0.8410583}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: leg_back_03_l_end
+      parentName: leg_back_03_l
+      position: {x: -0, y: 50.62097, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_middle_01_r
+      parentName: pelvis
+      position: {x: -15.062004, y: 3.2404869, z: -42.45409}
+      rotation: {x: -0.0042415564, y: 0.51060593, z: -0.006714851, w: -0.85977817}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000002}
+    - name: leg_middle_02_r
+      parentName: leg_middle_01_r
+      position: {x: -26.558317, y: 47.798073, z: -15.826813}
+      rotation: {x: -0.00000022700989, y: -0.4824975, z: 0.000000496395, w: 0.87589735}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000008}
+    - name: leg_middle_03_r
+      parentName: leg_middle_02_r
+      position: {x: -25.468706, y: -33.657913, z: 17.29633}
+      rotation: {x: -0.006287385, y: -0.1249724, z: 0.0048817717, w: 0.9921283}
+      scale: {x: 1.0000007, y: 0.9999999, z: 1.0000011}
+    - name: leg_middle_03_r_end
+      parentName: leg_middle_03_r
+      position: {x: -0, y: 45.614418, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_01
+      parentName: pelvis
+      position: {x: 38.559006, y: 0.0000012263772, z: 0.0020295288}
+      rotation: {x: 0.14689921, y: 0.9891507, z: -0.00011587936, w: -0.001237899}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: leg_front_01_r
+      parentName: neck_01
+      position: {x: -1.3030831, y: 0.6548186, z: 31.161999}
+      rotation: {x: 0.34375203, y: 0.706422, z: 0.41557994, w: 0.4583621}
+      scale: {x: 1.0000004, y: 0.99999976, z: 0.9999999}
+    - name: leg_front_02_r
+      parentName: leg_front_01_r
+      position: {x: -17.275711, y: 46.94466, z: -11.861868}
+      rotation: {x: 0.019992411, y: -0.28977448, z: -0.8150545, w: 0.5013156}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999964}
+    - name: leg_front_03_r
+      parentName: leg_front_02_r
+      position: {x: -26.532904, y: -29.725578, z: 13.939835}
+      rotation: {x: -0.5118573, y: 0.6883427, z: 0.48719266, w: 0.16379806}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000002}
+    - name: leg_front_03_r_end
+      parentName: leg_front_03_r
+      position: {x: -0, y: 42.212906, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: neck_01
+      position: {x: -16.596884, y: 16.399996, z: -0.00023138523}
+      rotation: {x: 0.0000016570708, y: 0.2447279, z: -0.00000034508247, w: 0.9695918}
+      scale: {x: 0.9999996, y: 1.0000005, z: 1.0000005}
+    - name: mandible_r
+      parentName: head
+      position: {x: -35.5936, y: -8.45808, z: -3.134048}
+      rotation: {x: 0.00000042380694, y: -0.8586686, z: 0.00000011682244, w: 0.5125312}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.9999999}
+    - name: mandible_r_end
+      parentName: mandible_r
+      position: {x: -0, y: 36.666992, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mandible_l
+      parentName: head
+      position: {x: -22.172195, y: -8.457999, z: -28.024094}
+      rotation: {x: 0.5125169, y: 0.00000058577285, z: 0.85867697, w: 0.000548399}
+      scale: {x: 1.0000002, y: 0.99999976, z: 0.9999999}
+    - name: mandible_l_end
+      parentName: mandible_l
+      position: {x: -0, y: 36.666996, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_front_01_l
+      parentName: neck_01
+      position: {x: -1.3020887, y: 0.65490204, z: -31.162043}
+      rotation: {x: -0.7062877, y: 0.34397152, z: 0.45847216, w: -0.41550526}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000002}
+    - name: leg_front_02_l
+      parentName: leg_front_01_l
+      position: {x: 17.276377, y: -46.944435, z: 11.8616295}
+      rotation: {x: 0.019985998, y: -0.28976256, z: -0.81509024, w: 0.50126463}
+      scale: {x: 1.0000004, y: 0.9999993, z: 0.99999994}
+    - name: leg_front_03_l
+      parentName: leg_front_02_l
+      position: {x: 26.532795, y: 29.725523, z: -13.939982}
+      rotation: {x: -0.006195752, y: -0.14978372, z: 0.0040284945, w: 0.9886912}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: leg_front_03_l_end
+      parentName: leg_front_03_l
+      position: {x: -0, y: 42.2128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_middle_01_l
+      parentName: pelvis
+      position: {x: -14.860325, y: 3.240667, z: 42.525234}
+      rotation: {x: 0.51266366, y: 0.0042336807, z: 0.8585527, w: -0.006735742}
+      scale: {x: 0.99999976, y: 1, z: 0.9999998}
+    - name: leg_middle_02_l
+      parentName: leg_middle_01_l
+      position: {x: 26.558537, y: -47.797783, z: 15.826422}
+      rotation: {x: -0.00000011245719, y: -0.48249763, z: 0.00000041280867, w: 0.8758972}
+      scale: {x: 1.0000001, y: 1, z: 0.9999989}
+    - name: leg_middle_03_l
+      parentName: leg_middle_02_l
+      position: {x: 25.468744, y: 33.65798, z: -17.29609}
+      rotation: {x: -0.0062877657, y: -0.12497258, z: 0.0048820595, w: 0.99212825}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000002}
+    - name: leg_middle_03_l_end
+      parentName: leg_middle_03_l
+      position: {x: -0, y: 45.614414, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shell_01
+      parentName: pelvis
+      position: {x: 35.74113, y: 23.841463, z: 0.45616055}
+      rotation: {x: 0.00000014901161, y: 0.0011595637, z: -0.0000006109476, w: 0.99999934}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: shell_01_end
+      parentName: shell_01
+      position: {x: -0, y: 41.222893, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shell_02
+      parentName: pelvis
+      position: {x: 15.364581, y: 32.84848, z: 0.50450915}
+      rotation: {x: 0.00000017881393, y: 0.0011595935, z: -0.00000040233135, w: 0.99999934}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: shell_02_end
+      parentName: shell_02
+      position: {x: -0, y: 41.222893, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shell_03
+      parentName: pelvis
+      position: {x: -8.875305, y: 41.628693, z: 0.5620231}
+      rotation: {x: 0.0000002682209, y: 1, z: -0.000024452806, w: 0.00023682415}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: shell_03_end
+      parentName: shell_03
+      position: {x: -0, y: 41.2229, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

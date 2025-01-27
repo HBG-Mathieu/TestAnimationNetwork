@@ -545,7 +545,7 @@ PlayerSettings:
     m_Automatic: 0
   - m_BuildTarget: WindowsStandaloneSupport
     m_APIs: 0200000015000000
-    m_Automatic: 1
+    m_Automatic: 0
   m_BuildTargetVRSettings: []
   m_DefaultShaderChunkSizeInMB: 16
   m_DefaultShaderChunkCount: 0
@@ -853,16 +853,16 @@ PlayerSettings:
   webGLMemoryLinearGrowthStep: 16
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
-  webGLEnableWebGPU: 0
   webGLPowerPreference: 2
   webGLWebAssemblyTable: 0
   webGLWebAssemblyBigInt: 0
   webGLCloseOnQuit: 0
   webWasm2023: 0
+  webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
-    Android: DOTS_ADD_PARTIAL_KEYWORD;UNITY_PHYSICS_CUSTOM
+    Android: DOTS_ADD_PARTIAL_KEYWORD;UNITY_PHYSICS_CUSTOM;UNITY_BURST_EXPERIMENTAL_ATOMIC_INTRINSICS
     Server: DOTS_ADD_PARTIAL_KEYWORD;UNITY_PHYSICS_CUSTOM
-    Standalone: DOTS_ADD_PARTIAL_KEYWORD;UNITY_PHYSICS_CUSTOM;UNITY_BURST_EXPERIMENTAL_ATOMIC_INTRINSICS
+    Standalone: DOTS_ADD_PARTIAL_KEYWORD;UNITY_PHYSICS_CUSTOM;UNITY_BURST_EXPERIMENTAL_ATOMIC_INTRINSICS;RUKHANKA_WITH_NETCODE
     iPhone: DOTS_ADD_PARTIAL_KEYWORD;UNITY_PHYSICS_CUSTOM
   additionalCompilerArguments: {}
   platformArchitecture: {}
@@ -981,3 +981,4 @@ PlayerSettings:
   insecureHttpOption: 0
   androidVulkanDenyFilterList: []
   androidVulkanAllowFilterList: []
+  androidVulkanDeviceFilterListAsset: {fileID: 0}

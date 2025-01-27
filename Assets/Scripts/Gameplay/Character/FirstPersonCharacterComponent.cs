@@ -25,6 +25,7 @@ namespace Unity.Template.CompetitiveActionMultiplayer
         public float ViewRollSharpness;
 
         public Entity ViewEntity;
+        public Entity BodyEntity;
 
         public Entity NameTagSocketEntity;
         public Entity WeaponSocketEntity;

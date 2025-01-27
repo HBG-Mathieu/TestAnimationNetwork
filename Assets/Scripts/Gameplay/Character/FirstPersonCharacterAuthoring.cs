@@ -9,6 +9,8 @@ namespace Unity.Template.CompetitiveActionMultiplayer
     public class FirstPersonCharacterAuthoring : MonoBehaviour
     {
         public GameObject ViewEntity;
+        public GameObject BodyEntity;
+
         public GameObject NameTagSocket;
 
         public GameObject WeaponSocket;
@@ -58,6 +60,7 @@ namespace Unity.Template.CompetitiveActionMultiplayer
                     MinViewAngle = authoring.MinViewAngle,
                     MaxViewAngle = authoring.MaxViewAngle,
                     ViewEntity = GetEntity(authoring.ViewEntity, TransformUsageFlags.Dynamic),
+                    BodyEntity = GetEntity(authoring.BodyEntity, TransformUsageFlags.Dynamic),
                     ViewPitchDegrees = 0f,
                     ViewLocalRotation = quaternion.identity,
                     NameTagSocketEntity = GetEntity(authoring.NameTagSocket, TransformUsageFlags.Dynamic),
